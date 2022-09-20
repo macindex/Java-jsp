@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Inicio</title>
 </head>
 <body>
 	<h1>Welcome to JSP course</h1>
-	<% out.print("Seu sucesso garantido"); %>
+	<%= "Seu sucesso garantido" %>
 	<form action="recebe-nome.jsp">
 		<input type="text" id="nome" name="nome" />
 		
